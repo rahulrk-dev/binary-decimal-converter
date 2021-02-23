@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Binary Converter</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+</head>
+
+<body>
+	<h1 class="title">Decimal<sub>10</sub> to Binary<sub>2</sub></h1>
+	<div class="switch">
+		<div class="radio-check">
+			<label for="dec2bin">Decimal to Binary</label>
+			<input type="radio" class="radioBtn" name="switchnode" id="dec2bin" value="0" checked>
+		</div>
+		<div class="radio-check">
+			<label for="bin2dec">Binary to Decimal</label>
+			<input type="radio" class="radioBtn" name="switchnode" id="bin2dec" value="1">
+		</div>
+	</div>
+	<input type="number" name="bin" id="in">
+	<p id="out" class="output"></p>
+
+	<script src="app.js"></script>
+</body>
+
+</html>
